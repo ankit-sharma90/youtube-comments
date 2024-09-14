@@ -1,0 +1,10 @@
+Rubric
+Functionality: 40/40
+Style: 30/30 
+Scope/Logic: 3/10
+Scope was not covered in class: 3/10 
+Presentation: 10/10
+
+Notes: Nice work. The app works well and the UI is easy to use,and you've correctly identified ways to take it further. 7 point deduction for scope because it doesn't do much beyond fetch the top 5 comments by category and display them. I'd love to see a way for clients to say how many comments they'd like to see or otherwise control what they're looking for. 7 points deducted for scope being mostly already covered in class.
+
+Total: 86/100
