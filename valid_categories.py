@@ -1,11 +1,12 @@
 import requests
-import json
+import os
+API_KEY = os.environ.get('YOUTUBE_API_KEY')
 
 def valid_categories():
     parameters = {
         "part": "snippet",
         "regionCode": "US",
-        "key": "AIzaSyBcAFV0eSetpir285H_cQGt1-c3OFk60Nc"
+        "key": API_KEY,
     }
 
     vc_mapping = {}
@@ -25,7 +26,7 @@ def is_category_valid(id):
     parameters = {
         "part": "snippet, statistics",
         "regionCode": "US",
-        "key": "AIzaSyBcAFV0eSetpir285H_cQGt1-c3OFk60Nc",
+        "key": API_KEY,
         "chart": "mostPopular",
         "videoCategoryId": id
     }
